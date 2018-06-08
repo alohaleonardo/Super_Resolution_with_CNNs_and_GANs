@@ -1,0 +1,54 @@
+2018-05-29 11:34:41,404:INFO: Creating the dataset...
+2018-05-29 11:34:41,405:INFO: - done.
+2018-05-29 11:34:48,703:INFO: Starting evaluation
+2018-05-29 11:34:49,634:INFO: - Eval metrics : PSNR: 23.273 ; SSIM: 0.871
+2018-05-29 11:36:07,186:INFO: Creating the dataset...
+2018-05-29 11:36:07,186:INFO: - done.
+2018-05-29 11:36:14,538:INFO: Starting evaluation
+2018-05-29 11:36:15,419:INFO: - Eval metrics : PSNR: 23.273 ; SSIM: 0.871
+2018-05-29 17:50:34,697:INFO: Creating the dataset...
+2018-05-29 17:50:34,698:INFO: - done.
+2018-05-29 17:50:42,430:INFO: Starting evaluation
+2018-05-29 17:50:46,161:INFO: - Eval metrics : PSNR: 26.497 ; SSIM: 0.920 ; mse_loss: 164.006
+2018-05-29 17:51:10,069:INFO: Creating the dataset...
+2018-05-29 17:51:10,070:INFO: - done.
+2018-05-29 17:51:17,867:INFO: Starting evaluation
+2018-05-29 17:51:21,745:INFO: - Eval metrics : PSNR: 26.497 ; SSIM: 0.920 ; mse_loss: 164.006
+2018-05-29 17:53:25,252:INFO: Creating the dataset...
+2018-05-29 17:53:25,252:INFO: - done.
+2018-05-29 17:53:33,118:INFO: Starting evaluation
+2018-05-29 17:53:33,924:INFO: - Eval metrics : PSNR: 26.968 ; SSIM: 0.935 ; mse_loss: 142.729
+2018-05-29 18:40:43,978:INFO: Creating the dataset...
+2018-05-29 18:40:43,980:INFO: - done.
+2018-05-29 18:40:51,332:INFO: Starting evaluation
+2018-05-29 18:40:58,218:INFO: - Eval metrics : PSNR: 9.369 ; SSIM: 0.457 ; mse_loss: 8765.803
+2018-05-29 18:45:48,192:INFO: Creating the dataset...
+2018-05-29 18:45:48,193:INFO: - done.
+2018-05-29 18:45:55,880:INFO: Starting evaluation
+2018-05-29 18:46:02,852:INFO: - Eval metrics : PSNR: 9.369 ; SSIM: 0.457 ; mse_loss: 8765.803
+2018-05-29 18:46:36,634:INFO: Creating the dataset...
+2018-05-29 18:46:36,635:INFO: - done.
+2018-05-29 18:46:44,430:INFO: Starting evaluation
+2018-05-29 18:46:51,576:INFO: - Eval metrics : PSNR: 9.369 ; SSIM: 0.457 ; mse_loss: 8765.803
+2018-05-31 00:25:14,848:INFO: Creating the dataset...
+2018-05-31 00:25:14,875:INFO: - done.
+2018-05-31 00:25:34,824:INFO: Starting evaluation
+2018-05-31 00:27:36,005:INFO: Creating the dataset...
+2018-05-31 00:27:36,017:INFO: - done.
+2018-05-31 00:27:56,155:INFO: Starting evaluation
+2018-05-31 00:28:33,990:INFO: Creating the dataset...
+2018-05-31 00:28:33,991:INFO: - done.
+2018-05-31 00:28:54,447:INFO: Starting evaluation
+2018-05-31 00:29:00,495:INFO: - Eval metrics : PSNR: 26.571 ; SSIM: 0.922 ; mse_loss: 161.839
+2018-05-31 04:16:17,302:INFO: Creating the dataset...
+2018-05-31 04:16:17,317:INFO: - done.
+2018-05-31 04:16:39,997:INFO: Starting evaluation
+2018-05-31 04:16:46,869:INFO: - Eval metrics : PSNR: 25.211 ; SSIM: 0.900 ; mse_loss: 217.613
+2018-05-31 22:45:26,587:INFO: Creating the dataset...
+2018-05-31 22:45:26,588:INFO: - done.
+2018-05-31 22:45:32,716:INFO: Starting evaluation
+2018-05-31 22:45:41,286:INFO: - Eval metrics : PSNR: 25.842 ; SSIM: 0.917 ; mse_loss: 186.364
+2018-05-31 22:47:58,537:INFO: Creating the dataset...
+2018-05-31 22:47:58,538:INFO: - done.
+2018-05-31 22:48:04,751:INFO: Starting evaluation
+2018-05-31 22:48:13,475:INFO: - Eval metrics : PSNR: 25.842 ; SSIM: 0.917 ; mse_loss: 186.364

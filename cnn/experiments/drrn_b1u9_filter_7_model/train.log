@@ -1,0 +1,12 @@
+2018-05-31 01:19:30,514:INFO: Loading the datasets...
+2018-05-31 01:19:30,849:INFO: - done.
+2018-05-31 01:19:51,141:INFO: Starting training for 100 epoch(s)
+2018-05-31 01:19:51,142:INFO: Epoch 1/100
+2018-05-31 03:38:32,175:INFO: - Train metrics: PSNR: 13.739 ; SSIM: 0.691 ; loss: 4142748.250
+2018-05-31 03:38:42,543:INFO: - Eval metrics : PSNR: 26.926 ; SSIM: 0.924 ; loss: 150.180
+2018-05-31 03:38:42,855:INFO: - Found new best accuracy
+2018-05-31 03:38:42,856:INFO: Epoch 2/100
+2018-05-31 05:56:35,767:INFO: - Train metrics: PSNR: 27.427 ; SSIM: 0.934 ; loss: 135.819
+2018-05-31 05:56:45,614:INFO: - Eval metrics : PSNR: 27.498 ; SSIM: 0.934 ; loss: 133.708
+2018-05-31 05:56:45,849:INFO: - Found new best accuracy
+2018-05-31 05:56:45,850:INFO: Epoch 3/100

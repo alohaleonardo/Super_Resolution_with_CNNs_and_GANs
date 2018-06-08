@@ -1,0 +1,8 @@
+2018-05-31 06:26:21,697:INFO: Creating the dataset...
+2018-05-31 06:26:21,698:INFO: - done.
+2018-05-31 06:26:28,689:INFO: Starting evaluation
+2018-05-31 06:26:34,907:INFO: - Eval metrics : PSNR: 29.230 ; SSIM: 0.953 ; loss: 97.326
+2018-06-07 13:44:30,671:INFO: Creating the dataset...
+2018-06-07 13:44:30,672:INFO: - done.
+2018-06-07 13:44:35,985:INFO: Starting evaluation
+2018-06-07 13:44:40,389:INFO: - Eval metrics : PSNR: 29.230 ; SSIM: 0.953 ; loss: 97.326

@@ -1,0 +1,68 @@
+2018-06-07 00:08:44,576:INFO: Loading the datasets...
+2018-06-07 00:08:44,776:INFO: - done.
+2018-06-07 00:08:53,917:INFO: Starting training for 50 epoch(s)
+2018-06-07 00:08:53,918:INFO: Epoch 1/50
+2018-06-07 00:17:01,141:INFO: Loading the datasets...
+2018-06-07 00:17:01,338:INFO: - done.
+2018-06-07 00:17:09,682:INFO: Starting training for 50 epoch(s)
+2018-06-07 00:17:09,683:INFO: Epoch 1/50
+2018-06-07 00:47:06,169:INFO: - Train metrics: PSNR: -1.199 ; SSIM: 0.211 ; loss: 1205791.333
+2018-06-07 02:35:25,972:INFO: Loading the datasets...
+2018-06-07 02:35:26,174:INFO: - done.
+2018-06-07 02:35:34,436:INFO: Starting training for 50 epoch(s)
+2018-06-07 02:35:34,437:INFO: Epoch 1/50
+2018-06-07 03:07:25,383:INFO: - Train metrics: PSNR: 8.370 ; SSIM: 0.438 ; loss: 592361.826
+2018-06-07 03:07:30,008:INFO: - Eval metrics : PSNR: 19.211 ; SSIM: 0.664 ; loss: 803.375
+2018-06-07 03:07:30,098:INFO: - Found new best accuracy
+2018-06-07 03:07:30,098:INFO: Epoch 2/50
+2018-06-07 03:39:20,737:INFO: - Train metrics: PSNR: 20.879 ; SSIM: 0.754 ; loss: 565.593
+2018-06-07 03:39:25,333:INFO: - Eval metrics : PSNR: 22.807 ; SSIM: 0.815 ; loss: 352.761
+2018-06-07 03:39:25,360:INFO: - Found new best accuracy
+2018-06-07 03:39:25,361:INFO: Epoch 3/50
+2018-06-07 04:11:15,703:INFO: - Train metrics: PSNR: 23.500 ; SSIM: 0.834 ; loss: 307.207
+2018-06-07 04:11:20,330:INFO: - Eval metrics : PSNR: 24.620 ; SSIM: 0.855 ; loss: 237.540
+2018-06-07 04:11:20,362:INFO: - Found new best accuracy
+2018-06-07 04:11:20,363:INFO: Epoch 4/50
+2018-06-07 04:43:11,783:INFO: - Train metrics: PSNR: 25.068 ; SSIM: 0.881 ; loss: 212.188
+2018-06-07 04:43:16,362:INFO: - Eval metrics : PSNR: 25.519 ; SSIM: 0.889 ; loss: 196.335
+2018-06-07 04:43:16,389:INFO: - Found new best accuracy
+2018-06-07 04:43:16,389:INFO: Epoch 5/50
+2018-06-07 05:15:06,455:INFO: - Train metrics: PSNR: 25.496 ; SSIM: 0.901 ; loss: 205.333
+2018-06-07 05:15:11,045:INFO: - Eval metrics : PSNR: 25.077 ; SSIM: 0.894 ; loss: 213.441
+2018-06-07 05:15:11,053:INFO: Epoch 6/50
+2018-06-07 05:47:01,221:INFO: - Train metrics: PSNR: 25.619 ; SSIM: 0.893 ; loss: 206.908
+2018-06-07 05:47:05,825:INFO: - Eval metrics : PSNR: 25.333 ; SSIM: 0.897 ; loss: 203.153
+2018-06-07 05:47:05,832:INFO: Epoch 7/50
+2018-06-07 06:18:55,978:INFO: - Train metrics: PSNR: 26.134 ; SSIM: 0.912 ; loss: 169.768
+2018-06-07 06:19:00,563:INFO: - Eval metrics : PSNR: 25.758 ; SSIM: 0.904 ; loss: 185.873
+2018-06-07 06:19:00,579:INFO: - Found new best accuracy
+2018-06-07 06:19:00,579:INFO: Epoch 8/50
+2018-06-07 06:50:50,816:INFO: - Train metrics: PSNR: 26.101 ; SSIM: 0.909 ; loss: 176.119
+2018-06-07 06:50:55,416:INFO: - Eval metrics : PSNR: 26.366 ; SSIM: 0.916 ; loss: 164.629
+2018-06-07 06:50:55,441:INFO: - Found new best accuracy
+2018-06-07 06:50:55,442:INFO: Epoch 9/50
+2018-06-07 07:22:45,352:INFO: - Train metrics: PSNR: 26.416 ; SSIM: 0.921 ; loss: 168.086
+2018-06-07 07:22:49,926:INFO: - Eval metrics : PSNR: 26.509 ; SSIM: 0.923 ; loss: 159.969
+2018-06-07 07:22:49,945:INFO: - Found new best accuracy
+2018-06-07 07:22:49,946:INFO: Epoch 10/50
+2018-06-07 07:54:40,044:INFO: - Train metrics: PSNR: 26.430 ; SSIM: 0.926 ; loss: 169.146
+2018-06-07 07:54:44,659:INFO: - Eval metrics : PSNR: 27.057 ; SSIM: 0.927 ; loss: 144.339
+2018-06-07 07:54:44,674:INFO: - Found new best accuracy
+2018-06-07 07:54:44,675:INFO: Epoch 11/50
+2018-06-07 08:26:34,816:INFO: - Train metrics: PSNR: 26.775 ; SSIM: 0.923 ; loss: 146.611
+2018-06-07 08:26:39,441:INFO: - Eval metrics : PSNR: 26.328 ; SSIM: 0.925 ; loss: 164.926
+2018-06-07 08:26:39,448:INFO: Epoch 12/50
+2018-06-07 13:21:47,990:INFO: Loading the datasets...
+2018-06-07 13:21:49,775:INFO: - done.
+2018-06-07 13:22:11,283:INFO: Starting training for 50 epoch(s)
+2018-06-07 13:22:11,283:INFO: Restoring parameters from experiments/drrn_u9_model/best.pth.tar
+2018-06-07 13:22:37,550:INFO: Loading the datasets...
+2018-06-07 13:22:37,758:INFO: - done.
+2018-06-07 13:22:43,024:INFO: Starting training for 50 epoch(s)
+2018-06-07 13:22:43,024:INFO: Restoring parameters from experiments/drrn_u9_model/best.pth.tar
+2018-06-07 13:22:44,571:INFO: Epoch 1/50
+2018-06-07 13:38:47,928:INFO: Loading the datasets...
+2018-06-07 13:38:48,129:INFO: - done.
+2018-06-07 13:38:52,829:INFO: Starting training for 50 epoch(s)
+2018-06-07 13:38:52,829:INFO: Restoring parameters from experiments/drrn_u9_model/best.pth.tar
+2018-06-07 13:38:52,933:INFO: Epoch 1/50

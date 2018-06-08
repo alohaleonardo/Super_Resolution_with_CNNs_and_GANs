@@ -1,0 +1,99 @@
+2018-05-27 07:14:14,259:INFO: Loading the datasets...
+2018-05-27 07:14:15,823:INFO: - done.
+2018-05-27 07:14:20,544:INFO: Starting training for 100 epoch(s)
+2018-05-27 07:14:20,545:INFO: Epoch 1/100
+2018-05-27 07:15:48,211:INFO: - Train metrics: PSNR: -15.351 ; SSIM: -0.052 ; loss: 20266.055
+2018-05-27 07:15:48,955:INFO: - Eval metrics : PSNR: 26.584 ; SSIM: 0.782 ; loss: 166.337
+2018-05-27 07:15:49,055:INFO: - Found new best accuracy
+2018-05-27 07:15:49,055:INFO: Epoch 2/100
+2018-05-27 07:16:43,022:INFO: - Train metrics: PSNR: 26.547 ; SSIM: 0.780 ; loss: 166.277
+2018-05-27 07:16:43,618:INFO: - Eval metrics : PSNR: 26.914 ; SSIM: 0.796 ; loss: 153.747
+2018-05-27 07:16:43,624:INFO: - Found new best accuracy
+2018-05-27 07:16:43,624:INFO: Epoch 3/100
+2018-05-27 07:17:37,506:INFO: - Train metrics: PSNR: 27.120 ; SSIM: 0.797 ; loss: 155.608
+2018-05-27 07:17:38,200:INFO: - Eval metrics : PSNR: 27.096 ; SSIM: 0.802 ; loss: 148.122
+2018-05-27 07:17:38,207:INFO: - Found new best accuracy
+2018-05-27 07:17:38,207:INFO: Epoch 4/100
+2018-05-27 07:18:35,165:INFO: Loading the datasets...
+2018-05-27 07:18:35,365:INFO: - done.
+2018-05-28 20:41:25,492:INFO: Loading the datasets...
+2018-05-28 20:41:27,143:INFO: - done.
+2018-05-28 20:41:43,374:INFO: Starting training for 100 epoch(s)
+2018-05-28 20:41:43,385:INFO: Epoch 1/100
+2018-05-28 20:44:14,213:INFO: Loading the datasets...
+2018-05-28 20:44:14,425:INFO: - done.
+2018-05-28 20:44:18,323:INFO: Starting training for 100 epoch(s)
+2018-05-28 20:44:18,323:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 20:44:19,575:INFO: Epoch 1/100
+2018-05-28 20:47:53,062:INFO: - Train metrics: PSNR: 27.938 ; SSIM: 0.823 ; loss: 120.059
+2018-05-28 20:47:53,826:INFO: - Eval metrics : PSNR: 27.899 ; SSIM: 0.824 ; loss: 123.853
+2018-05-28 20:47:53,845:INFO: - Found new best accuracy
+2018-05-28 20:47:53,846:INFO: Epoch 2/100
+2018-05-28 20:51:27,045:INFO: - Train metrics: PSNR: 27.766 ; SSIM: 0.821 ; loss: 123.873
+2018-05-28 20:51:27,723:INFO: - Eval metrics : PSNR: 27.906 ; SSIM: 0.824 ; loss: 123.717
+2018-05-28 20:51:27,728:INFO: - Found new best accuracy
+2018-05-28 20:51:27,728:INFO: Epoch 3/100
+2018-05-28 20:55:00,946:INFO: - Train metrics: PSNR: 28.033 ; SSIM: 0.823 ; loss: 125.250
+2018-05-28 20:55:01,635:INFO: - Eval metrics : PSNR: 27.912 ; SSIM: 0.824 ; loss: 123.556
+2018-05-28 20:55:01,640:INFO: - Found new best accuracy
+2018-05-28 20:55:01,640:INFO: Epoch 4/100
+2018-05-28 20:59:00,558:INFO: Loading the datasets...
+2018-05-28 20:59:00,764:INFO: - done.
+2018-05-28 20:59:04,889:INFO: Starting training for 100 epoch(s)
+2018-05-28 20:59:04,890:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 20:59:04,974:INFO: Epoch 1/100
+2018-05-28 21:01:08,391:INFO: Loading the datasets...
+2018-05-28 21:01:08,590:INFO: - done.
+2018-05-28 21:01:12,619:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:01:12,619:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:01:12,701:INFO: Epoch 1/100
+2018-05-28 21:01:44,494:INFO: Loading the datasets...
+2018-05-28 21:01:44,706:INFO: - done.
+2018-05-28 21:01:48,694:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:01:48,695:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:01:48,782:INFO: Epoch 1/100
+2018-05-28 21:03:38,763:INFO: Loading the datasets...
+2018-05-28 21:03:38,969:INFO: - done.
+2018-05-28 21:03:43,131:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:03:43,131:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:03:43,220:INFO: Epoch 1/100
+2018-05-28 21:03:59,880:INFO: Loading the datasets...
+2018-05-28 21:04:00,087:INFO: - done.
+2018-05-28 21:04:04,165:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:04:04,165:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:04:04,263:INFO: Epoch 1/100
+2018-05-28 21:04:25,572:INFO: Loading the datasets...
+2018-05-28 21:04:25,782:INFO: - done.
+2018-05-28 21:04:29,801:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:04:29,801:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:04:29,886:INFO: Epoch 1/100
+2018-05-28 21:04:44,867:INFO: Loading the datasets...
+2018-05-28 21:04:45,078:INFO: - done.
+2018-05-28 21:04:49,087:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:04:49,087:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:04:49,182:INFO: Epoch 1/100
+2018-05-28 21:04:59,996:INFO: Loading the datasets...
+2018-05-28 21:05:00,205:INFO: - done.
+2018-05-28 21:05:04,322:INFO: Starting training for 100 epoch(s)
+2018-05-28 21:05:04,322:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-28 21:05:04,411:INFO: Epoch 1/100
+2018-05-28 21:08:40,107:INFO: - Train metrics: PSNR: 27.938 ; SSIM: 0.947 ; loss: 120.054
+2018-05-28 21:08:44,445:INFO: - Eval metrics : PSNR: 27.905 ; SSIM: 0.944 ; loss: 123.704
+2018-05-28 21:08:44,449:INFO: - Found new best accuracy
+2018-05-28 21:08:44,449:INFO: Epoch 2/100
+2018-05-28 21:12:20,214:INFO: - Train metrics: PSNR: 27.773 ; SSIM: 0.950 ; loss: 123.717
+2018-05-28 21:12:24,600:INFO: - Eval metrics : PSNR: 27.909 ; SSIM: 0.944 ; loss: 123.642
+2018-05-28 21:12:24,604:INFO: - Found new best accuracy
+2018-05-28 21:12:24,605:INFO: Epoch 3/100
+2018-05-28 21:16:00,407:INFO: - Train metrics: PSNR: 28.035 ; SSIM: 0.948 ; loss: 125.190
+2018-05-28 21:16:04,761:INFO: - Eval metrics : PSNR: 27.916 ; SSIM: 0.944 ; loss: 123.464
+2018-05-28 21:16:04,766:INFO: - Found new best accuracy
+2018-05-28 21:16:04,767:INFO: Epoch 4/100
+2018-05-28 21:19:40,568:INFO: - Train metrics: PSNR: 27.495 ; SSIM: 0.944 ; loss: 143.180
+2018-05-28 21:19:44,973:INFO: - Eval metrics : PSNR: 27.911 ; SSIM: 0.944 ; loss: 123.587
+2018-05-28 21:19:44,978:INFO: Epoch 5/100
+2018-05-31 08:40:03,269:INFO: Loading the datasets...
+2018-05-31 08:40:03,509:INFO: - done.
+2018-05-31 08:40:11,940:INFO: Starting training for 100 epoch(s)
+2018-05-31 08:40:11,941:INFO: Restoring parameters from experiments/srcnn_model/best.pth.tar
+2018-05-31 08:40:12,094:INFO: Epoch 1/100

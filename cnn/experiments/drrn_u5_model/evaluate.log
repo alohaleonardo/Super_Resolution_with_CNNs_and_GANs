@@ -1,0 +1,30 @@
+2018-06-03 16:55:14,347:INFO: Creating the dataset...
+2018-06-03 16:55:14,347:INFO: - done.
+2018-06-03 16:55:32,177:INFO: Starting evaluation
+2018-06-03 16:55:48,768:INFO: Creating the dataset...
+2018-06-03 16:55:48,769:INFO: - done.
+2018-06-03 16:55:52,598:INFO: Starting evaluation
+2018-06-03 18:28:05,113:INFO: Creating the dataset...
+2018-06-03 18:28:05,114:INFO: - done.
+2018-06-03 18:28:08,976:INFO: Starting evaluation
+2018-06-03 18:28:17,163:INFO: Creating the dataset...
+2018-06-03 18:28:17,164:INFO: - done.
+2018-06-03 18:28:21,104:INFO: Starting evaluation
+2018-06-03 18:28:24,042:INFO: Creating the dataset...
+2018-06-03 18:28:24,043:INFO: - done.
+2018-06-03 18:28:27,851:INFO: Starting evaluation
+2018-06-03 18:28:38,916:INFO: Creating the dataset...
+2018-06-03 18:28:38,917:INFO: - done.
+2018-06-03 18:28:42,790:INFO: Starting evaluation
+2018-06-03 18:28:48,734:INFO: Creating the dataset...
+2018-06-03 18:28:48,735:INFO: - done.
+2018-06-03 18:28:52,843:INFO: Starting evaluation
+2018-06-03 18:29:01,314:INFO: - Eval metrics : PSNR: 29.016 ; SSIM: 0.952 ; loss: 100.929
+2018-06-03 18:33:08,646:INFO: Creating the dataset...
+2018-06-03 18:33:08,646:INFO: - done.
+2018-06-03 18:33:12,621:INFO: Starting evaluation
+2018-06-03 18:33:19,670:INFO: - Eval metrics : PSNR: 29.016 ; SSIM: 0.952 ; loss: 100.929
+2018-06-03 18:38:04,608:INFO: Creating the dataset...
+2018-06-03 18:38:04,609:INFO: - done.
+2018-06-03 18:38:08,536:INFO: Starting evaluation
+2018-06-03 18:38:15,303:INFO: - Eval metrics : PSNR: 29.016 ; SSIM: 0.952 ; loss: 100.929
