@@ -6,16 +6,22 @@ This is the code for our cs231n project.
 <br>
 [Yiyang Li](https://github.com/yiyang7),
 [Yilun Xu](https://github.com/Beehamer),
-[Ji Yu](https://github.com/NaruSaku),
+[Ji Yu](https://github.com/NaruSaku)
 <br>
 
 We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. Her are a few example outputs:
 
 <img src='imgs/resultsfig.png'>
 
-
-In this project, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high resolution images, we built a SR generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated GANs. The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with previous state-of-art methods, and out-perform them in terms of the structural similarity.
-
+We provide:
+- [SRCNN](#SRCNN)
+- [SRResNet](#SRResNet)
+- [DRRN](#DRRN)
+- [SRGAN](#SRGAN)
+- [CGAN](#CGAN)
+- Code to [run the model on new images](#running-on-new-images), on GPU
+- [Evaluation code](#evaluation) for super resolution
+- Instructions for [training the model](#training)
 
 If you find this code useful in your research, please cite:
 
@@ -30,7 +36,7 @@ If you find this code useful in your research, please cite:
 ```
 
 ## Installation
-
+This project is implemented in [PyTorch](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
