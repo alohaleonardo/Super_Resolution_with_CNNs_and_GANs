@@ -18,7 +18,7 @@ The results show that our methods and trails can achieve equivalent performance 
 <img src='imgs/resultsfig.png'>
 
 We provide:
-- Code to 【build datasets](#build-datasets)
+- Code to [build datasets](#build-datasets)
 - Code to [run the model on new images](#running-on-new-images), on GPU
 - [Evaluation code](#evaluation) for super resolution
 - Instructions for [training the model](#training)
@@ -37,10 +37,11 @@ If you find this code useful in your research, please cite:
 This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## Build datasets
-First, you need to download your dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
-Our model uses preprocessed data. The original size of pictures in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method. Remember to change the relative directory you want!
+First, you need to download your dataset to /data. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
+
+Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method. Remember to change the relative directory you want!
 ```bash
-python build_dataset.py --data_dir data/SIGNS --output_dir data/64x64_SIGNS
+python build_dataset.py --data_dir data/ --output_dir data/64x64_SIGNS
 ```
 
 
