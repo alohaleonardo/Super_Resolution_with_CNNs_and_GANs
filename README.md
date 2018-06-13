@@ -9,8 +9,12 @@ This is the code for our cs231n project.
 [Ji Yu](https://github.com/NaruSaku),
 <br>
 
-## Abstract
-We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. In this project, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high resolution images, we built a SR generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated GANs. The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with previous state-of-art methods, and out-perform them in terms of the structural similarity.
+We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. Her are a few example outputs:
+
+<img src='imgs/resultsfig.png'>
+
+
+In this project, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high resolution images, we built a SR generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated GANs. The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with previous state-of-art methods, and out-perform them in terms of the structural similarity.
 
 
 If you find this code useful in your research, please cite:
