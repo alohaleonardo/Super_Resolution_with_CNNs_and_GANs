@@ -39,9 +39,9 @@ This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-p
 ## Build datasets
 First, you need to download your dataset to /data. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
 
-Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method. Remember to change the relative directory you want!
+Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method.
 ```bash
-python build_dataset.py --data_dir data/ --output_dir data/64x64_SIGNS
+python build_dataset.py --data_dir data/img_align_celeba --output_dir data/faces
 ```
 
 
