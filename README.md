@@ -36,7 +36,8 @@ If you find this code useful in your research, please cite:
 ## Installation
 This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
-## build datasets
+## Build datasets
+First, you need to download your dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
 ```bash
 python build_dataset.py --data_dir data/SIGNS --output_dir data/64x64_SIGNS
 ```
