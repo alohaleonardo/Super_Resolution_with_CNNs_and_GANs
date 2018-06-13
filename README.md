@@ -9,7 +9,9 @@ This is the code for our cs231n project.
 [Ji Yu](https://github.com/NaruSaku)
 <br>
 
-We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. Her are a few example outputs:
+We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further improve image qualities, we built a super-resolution generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated with GANs. 
+
+The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with the previous state-of-art methods, and out-perform them in terms of the structural similarity. Her are a few example outputs:
 
 <img src='imgs/resultsfig.png'>
 
@@ -27,16 +29,13 @@ If you find this code useful in your research, please cite:
 
 ```
 @inproceedings{densecap,
-  title={DenseCap: Fully Convolutional Localization Networks for Dense Captioning},
-  author={Johnson, Justin and Karpathy, Andrej and Fei-Fei, Li},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and 
-             Pattern Recognition},
-  year={2016}
+  title={Super Resolution with CNNs and GANs},
+  author={Yiyang, Li and Yilun, Xu and Ji, Yu}
 }
 ```
 
 ## Installation
-This project is implemented in [PyTorch](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
+This project was implemented in [PyTorch](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
