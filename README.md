@@ -1,3 +1,8 @@
+# Super Resolution with CNNs and GANs
+## Abstract
+We investigated the problem of image super-resolution (SR), reconstructing high-resolution images (HR) from low- resolution input images (LR), which has attracted attention because of its wide range of applications. In this paper, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. Among all existing im- plementations, CNN-based models have enjoyed huge suc- cess. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high res- olution images, we built a super-resolution generative ad- versarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the struc- tural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial infor- mation associated GANs. The results show that our meth- ods and trails can achieve equivalent performance on most of the benchmarks compared with the previous state-of-art methods, and out-perform them in terms of the structural similarity.
+
+## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
 
 You need to download CelebA data to the root directory and build the dataset if you want to train from the beginning.
