@@ -64,3 +64,5 @@ python evaluate.py --data_dir <../YOUR_TEST_IMAGE_DIRECTORY> --model_dir experim
 
 
 python evaluate.py --data_dir ../data/test --model_dir experiments/drrn_b1u9_model --model drrn_b1u9 --cuda cuda0
+
+* indicates our own directory.
