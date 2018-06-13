@@ -37,7 +37,7 @@ If you find this code useful in your research, please cite:
 This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## Build datasets
-First, you need to download your dataset to /data. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
+First, you need to download your dataset to ../data*. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
 
 Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method.
 ```bash
