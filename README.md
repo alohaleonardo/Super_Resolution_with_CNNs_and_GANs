@@ -28,12 +28,13 @@ If you find this code useful in your research, please cite:
 ```
 @inproceedings{densecap,
   title={Super Resolution with CNNs and GANs},
-  author={Yiyang, Li and Yilun, Xu and Ji, Yu}
+  author={Yiyang, Li and Yilun, Xu and Ji, Yu},
+  year=2018,
 }
 ```
 
 ## Installation
-This project was implemented in [PyTorch](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
+This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## build datasets
 ```bash
