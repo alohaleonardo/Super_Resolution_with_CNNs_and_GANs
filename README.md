@@ -1,3 +1,5 @@
+## This readme hasn't compeleted yet, please refer to the last section #to use our code for now, thank you!
+
 # Super Resolution with CNNs and GANs
 
 This is the code for our cs231n project.
@@ -16,11 +18,7 @@ The results show that our methods and trails can achieve equivalent performance 
 <img src='imgs/resultsfig.png'>
 
 We provide:
-- [SRCNN](#SRCNN)
-- [SRResNet](#SRResNet)
-- [DRRN](#DRRN)
-- [SRGAN](#SRGAN)
-- [CGAN](#CGAN)
+- Code to 【build datasets](#build-datasets)
 - Code to [run the model on new images](#running-on-new-images), on GPU
 - [Evaluation code](#evaluation) for super resolution
 - Instructions for [training the model](#training)
@@ -36,6 +34,11 @@ If you find this code useful in your research, please cite:
 
 ## Installation
 This project was implemented in [PyTorch](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
+
+## build datasets
+```bash
+python build_dataset.py --data_dir data/SIGNS --output_dir data/64x64_SIGNS
+```
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
