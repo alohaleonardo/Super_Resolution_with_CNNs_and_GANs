@@ -1,4 +1,4 @@
-## This readme hasn't compeleted yet, please refer to the last section #to use our code for now, thank you!
+## This readme is still in progress, please refer to the last section #to use our code for now, thank you!
 
 # Super Resolution with CNNs and GANs
 
