@@ -1,6 +1,36 @@
 # Super Resolution with CNNs and GANs
-## Abstract
-We investigated the problem of image super-resolution (SR), reconstructing high-resolution images (HR) from low- resolution input images (LR), which has attracted attention because of its wide range of applications. In this paper, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. Among all existing im- plementations, CNN-based models have enjoyed huge suc- cess. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high res- olution images, we built a super-resolution generative ad- versarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the struc- tural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial infor- mation associated GANs. The results show that our meth- ods and trails can achieve equivalent performance on most of the benchmarks compared with the previous state-of-art methods, and out-perform them in terms of the structural similarity.
+
+This is the code for our cs231n project.
+
+**[Super Resolution with CNNs and GANs](https://github.com/yiyang7/cs231n_proj)**,
+<br>
+[Yiyang Li](https://github.com/yiyang7),
+[Yilun Xu](https://github.com/Beehamer),
+[Ji Yu](https://github.com/NaruSaku),
+<br>
+
+We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. Her are a few example outputs:
+
+<img src='imgs/resultsfig.png'>
+
+
+In this project, we mainly focus on improving super-resolution of human faces, and used CelebA as our dataset. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further solve the problem of recovering high frequency details of high resolution images, we built a SR generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated GANs. The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with previous state-of-art methods, and out-perform them in terms of the structural similarity.
+
+
+If you find this code useful in your research, please cite:
+
+```
+@inproceedings{densecap,
+  title={DenseCap: Fully Convolutional Localization Networks for Dense Captioning},
+  author={Johnson, Justin and Karpathy, Andrej and Fei-Fei, Li},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and 
+             Pattern Recognition},
+  year={2016}
+}
+```
+
+## Installation
+
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
