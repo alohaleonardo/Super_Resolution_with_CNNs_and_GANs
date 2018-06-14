@@ -38,26 +38,31 @@ This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-p
 
 ## Quickstart
 
-1. __Build datasets__
+1. __Build datasets__: First, you need to download the dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
 
-First, you need to download your dataset to ../data*. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
-
-Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method.
 ```bash
 python build_dataset.py --data_dir ../img_align_celeba --output_dir ../data/faces
 ```
 
 2. __Train__ your experiment
-
+```
+python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+```
 
 3. __Perform hyperparameters search__
-
+```
+python search_hyperparams.py --data_dir data/64x64_SIGNS --parent_dir experiments/learning_rate
+```
 
 4. __Display the results__ of the hyperparameters search in a nice format
-
+```
+python synthesize_results.py --parent_dir experiments/learning_rate
+```
 
 5. __Evaluation on the test set__
-
+```
+python evaluate.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+```
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
@@ -79,4 +84,5 @@ python evaluate.py --data_dir <../YOUR_TEST_IMAGE_DIRECTORY> --model_dir experim
 
 python evaluate.py --data_dir ../data/test --model_dir experiments/drrn_b1u9_model --model drrn_b1u9 --cuda cuda0
 
-* indicates our own directory.
+
+Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method.
