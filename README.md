@@ -38,6 +38,7 @@ python build_dataset.py --data_dir ../img_align_celeba_test --output_dir ../data
 ```
 
 2. __Train your experiment__
+
 for cnn-based models, e.g SRCNN:
 ```
 python train_cnn.py --data_dir ../data/cnn_faces --model_dir experiments/srcnn_model --model srcnn --cuda cuda0 --optim adam
