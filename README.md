@@ -38,7 +38,7 @@ python build_dataset.py --data_dir ../img_align_celeba --output_dir ../data/face
 
 ```
 
-2. __Train__ your experiment
+2. __Train your experiment__
 ```
 python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
 ```
