@@ -31,16 +31,20 @@ If you find this code useful in your research, please cite:
 This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-pytorch) and [Python3](https://www.python.org/downloads/)
 
 ## Quickstart
-
 1. __Build datasets__: First, you need to download the dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
 
 ```bash
 python build_dataset.py --data_dir ../img_align_celeba --output_dir ../data/faces
+
 ```
 
 2. __Train__ your experiment
 ```
 python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+```
+If you want to train the model from last time:
+```
+python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model --model model --cuda cuda 0 --optim adam --restore_file "best"
 ```
 
 3. __Perform hyperparameters search__
@@ -57,6 +61,11 @@ python synthesize_results.py --parent_dir experiments/learning_rate
 ```
 python evaluate.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
 ```
+## Guidelines for more advanced use
+1. __save output of test images__
+
+2. __save feature maps__
+
 
 ## To use our code:
 Pytorch implementation of CNN and GAN based super-resolution models.
