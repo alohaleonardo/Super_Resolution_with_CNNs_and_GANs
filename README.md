@@ -17,12 +17,6 @@ The results show that our methods and trails can achieve equivalent performance 
 
 <img src='imgs/resultsfig.png'>
 
-We provide:
-- Code to [build datasets](#build-datasets)
-- Code to [run the model on new images](#running-on-new-images), on GPU
-- [Evaluation code](#evaluation) for super resolution
-- Instructions for [training the model](#training)
-
 If you find this code useful in your research, please cite:
 
 ```
