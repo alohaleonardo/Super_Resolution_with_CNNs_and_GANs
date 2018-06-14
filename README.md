@@ -38,12 +38,17 @@ python build_dataset.py --data_dir ../img_align_celeba_test --output_dir ../data
 ```
 
 2. __Train your experiment__
+for cnn-based models, e.g SRCNN:
 ```
-python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+python train_cnn.py --data_dir ../data/cnn_faces --model_dir experiments/srcnn_model --model srcnn --cuda cuda0 --optim adam
 ```
-If you want to train the model from last time:
+for gan models, e.g SRGAN:
 ```
-python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model --model model --cuda cuda 0 --optim adam --restore_file "best"
+python train_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_model --model gan --cuda cuda0 --optim adam
+```
+If you want to train the model from last time, add this:
+```
+--restore_file "best"
 ```
 
 3. __Perform hyperparameters search__
