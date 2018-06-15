@@ -69,9 +69,16 @@ python synthesize_results.py --parent_dir experiments/learning_rate
 ```
 
 5. __Evaluation on the test set__
+
+for cnn-based models, e.g SRCNN:
 ```
-python evaluate.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+python evaluate_cnn.py --data_dir ../data/cnn_faces --model_dir experiments/srcnn_model --model srcnn --cuda cuda0
 ```
+for gan models, e.g SRGAN:
+```
+python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_model --model gan --cuda cuda0
+```
+
 ## Guidelines for more advanced use
 1. __save output of test images__
 
