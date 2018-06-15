@@ -11,7 +11,7 @@ This is the code for our cs231n project.
 [Ji Yu](https://github.com/NaruSaku)
 <br>
 
-We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further improve image qualities, we built a super-resolution generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of losing partial information associated with GANs. 
+We investigated the problem of image super-resolution (SR), where we want to reconstruct high-resolution images from low-resolution images. We presented a residual learning framework to ease the training of the substantially deep network. Specifically, we reformulated the structure of the deep-recursive neural network to improve its performance. To further improve image qualities, we built a super-resolution generative adversarial network (SRGAN) framework, where we proposed several loss functions based on perceptual loss, i.e. SSIM loss and/ or total variation (TV) loss, to enhance the structural integrity of generative images. Moreover, a condition is injected to resolve the problem of partial information loss associated with GANs. 
 
 The results show that our methods and trails can achieve equivalent performance on most of the benchmarks compared with the previous state-of-art methods, and out-perform them in terms of the structural similarity. Here are a few example outputs:
 
@@ -38,12 +38,18 @@ python build_dataset.py --data_dir ../img_align_celeba_test --output_dir ../data
 ```
 
 2. __Train your experiment__
+
+for cnn-based models, e.g SRCNN:
 ```
-python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model
+python train_cnn.py --data_dir ../data/cnn_faces --model_dir experiments/srcnn_model --model srcnn --cuda cuda0 --optim adam
 ```
-If you want to train the model from last time:
+for gan models, e.g SRGAN:
 ```
-python train.py --data_dir data/64x64_SIGNS --model_dir experiments/base_model --model model --cuda cuda 0 --optim adam --restore_file "best"
+python train_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_model --model gan --cuda cuda0 --optim adam
+```
+If you want to train the model from last time, add this:
+```
+--restore_file "best"
 ```
 
 3. __Perform hyperparameters search__
