@@ -53,8 +53,13 @@ If you want to train the model from last time, add this:
 ```
 
 3. __Perform hyperparameters search__
+for cnn-based models, e.g SRCNN:
 ```
-python search_hyperparams.py --data_dir data/64x64_SIGNS --parent_dir experiments/learning_rate
+python search_hyperparams.py --data_dir ../data/cnn_faces --parent_dir experiments/learning_rate --model srcnn --model_type cnn
+```
+for gan models, e.g SRGAN:
+```
+python search_hyperparams.py --data_dir ../data/gan_faces --parent_dir experiments/learning_rate --model gan --model_type gan
 ```
 
 4. __Display the results__ of the hyperparameters search in a nice format
