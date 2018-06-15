@@ -89,8 +89,8 @@ def fetch_dataloader(types, data_dir, params):
     dataloaders = {}
     for split in ['train', 'val', 'test']:
         if split in types:
-            path_blur = os.path.join(data_dir, "{}_faces_blur".format(split))
-            path = os.path.join(data_dir,  "{}_faces".format(split))
+            path_blur = os.path.join(data_dir, "{}_blur".format(split))
+            path = os.path.join(data_dir,  "{}_clear".format(split))
             
             # use the train_transformer if training data, else use eval_transformer without random flip
             if split == 'train':

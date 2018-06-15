@@ -14,7 +14,7 @@ import utils
 from torch.nn.utils import clip_grad_norm
 from torch.optim import lr_scheduler
 import model.data_loader as data_loader
-from evaluate import evaluate
+from evaluate_cnn import evaluate
 import torchvision.transforms.functional as F
 from skimage import io
 from logger import Logger
@@ -47,7 +47,7 @@ import model.drrn_dense as Drrn_dense
 model_directory = {'des_size': Densenet_size, 'densenet_shallow': Densenet_shallow, 'densenet': Densenet, 'resnet': Resnet, 'srcnn': Srcnn, 'fsrcnn': Fsrcnn, 'drrn': Drrn, 'drrn_b1u9': Drrn_b1u9, 'drrn_b1u9_filter_5': Drrn_b1u9_filter_5, 'drrn_b1u9_filter_7': Drrn_b1u9_filter_7, 'drrn_b1u9_filter_64': Drrn_b1u9_filter_64, 'drrn_b1u9_filter_32': Drrn_b1u9_filter_32, 'drrn_b1u15': Drrn_b1u15, 'drrn_b1u5': Drrn_b1u5, 'drrn_u9': Drrn_u9, 'drrn_dense': Drrn_dense }
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_dir', default='../data/4_3', help="Directory containing the dataset")
+parser.add_argument('--data_dir', default='../data/cnn_faces', help="Directory containing the dataset")
 parser.add_argument('--model_dir', default='experiments/base_model', help="Directory containing params.json")
 parser.add_argument('--model', default=None)
 parser.add_argument('--cuda', default=None)

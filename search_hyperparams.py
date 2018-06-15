@@ -13,9 +13,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--parent_dir', default='experiments/learning_rate',
                     help='Directory containing params.json')
 parser.add_argument('--data_dir', default='data/64x64_SIGNS', help="Directory containing the dataset")
+parser.add_argument('--model', default='srcnn', help="filename of the model")
+parser.add_argument('--model_type', default='cnn', help="type of the model")
 
 
-def launch_training_job(parent_dir, data_dir, job_name, params):
+def launch_training_job(parent_dir, data_dir, job_name, params, model, model_type):
     """Launch training of the model with a set of hyperparameters in parent_dir/job_name
 
     Args:
@@ -33,8 +35,13 @@ def launch_training_job(parent_dir, data_dir, job_name, params):
     params.save(json_path)
 
     # Launch training with this config
-    cmd = "{python} train.py --model_dir={model_dir} --data_dir {data_dir}".format(python=PYTHON, model_dir=model_dir,
-                                                                                   data_dir=data_dir)
+    cmd = None
+    if model_type == "cnn":
+        cmd = "{python} train_cnn.py --model_dir {model_dir} --data_dir {data_dir} --model {model} --cuda cuda0 --optim adam".format(python=PYTHON, model_dir=model_dir, data_dir=data_dir, model=model)    
+    elif model_type == "gan":
+        cmd = "{python} train_gan.py --model_dir {model_dir} --data_dir {data_dir} --model {model} --cuda cuda0 --optim adam".format(python=PYTHON, model_dir=model_dir, data_dir=data_dir, model=model)
+        
+        
     print(cmd)
     check_call(cmd, shell=True)
 
@@ -53,7 +60,8 @@ if __name__ == "__main__":
     for learning_rate in learning_rates:
         # Modify the relevant parameter in params
         params.learning_rate = learning_rate
-
+        print("get learning rate")
         # Launch job (name has to be unique)
         job_name = "learning_rate_{}".format(learning_rate)
-        launch_training_job(args.parent_dir, args.data_dir, job_name, params)
+        launch_training_job(args.parent_dir, args.data_dir, job_name, params, args.model, args.model_type)
+        print("finished one")
