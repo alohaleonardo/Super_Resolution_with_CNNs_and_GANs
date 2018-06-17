@@ -1,4 +1,4 @@
-## This readme is still in progress, please refer to the last section #to use our code for now, thank you!
+## This readme is still in progress, but it already support section #Quickstart 
 
 # Super Resolution with CNNs and GANs
 
@@ -32,7 +32,7 @@ This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-p
 
 ## Quickstart
 1. __Build datasets__: First, you need to download the dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
-
+e.g for cnn_based model, we set input size 144*144 and output size 144*144; For gan model, we set input size 36* and output size 144*144
 ```
 python build_dataset.py --data_dir ../img_align_celeba_test --output_dir ../data/cnn_faces --input_size 144 --output_size 144
 ```
@@ -79,26 +79,3 @@ python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_
 
 2. __save feature maps__
 
-
-## To use our code:
-Pytorch implementation of CNN and GAN based super-resolution models.
-
-You need to download CelebA data to the root directory and build the dataset if you want to train from the beginning.
-
-To train the model, you need to run the train.py in either directory cnn or directory gan. 
-
-python train.py --data_dir <../YOUR_TRAIN_IMAGE_DIRECTORY> --model_dir experiments/<YOUR_MODEL_NAME> --model <YOUR_MODEL_NAME> --cuda <YOUR_CUDA> --optim <YOUR_OPTIMIZER> (--restore_file 'best' "IF YOU WANT TO TRAIN WITH WEIGHTS")
-
-For example, if you want to train with data in your /data/train directory with the model "drrn_b1u9_model" with cuda0 and adam optimizer,
-
-python train.py --data_dir ../data/train --model_dir experiments/drrn_b1u9_model --model drrn_b1u9 --cuda cuda0 --optim adam
-
-
-To test our trained model,
-python evaluate.py --data_dir <../YOUR_TEST_IMAGE_DIRECTORY> --model_dir experiments/<YOUR_MODEL_NAME> --model <YOUR_MODEL_NAME> --cuda <YOUR_CUDA> 
-
-
-python evaluate.py --data_dir ../data/test --model_dir experiments/drrn_b1u9_model --model drrn_b1u9 --cuda cuda0
-
-
-Our model uses preprocessed data. The original size of images in CelebA is 218 * 178. We use the code in matlab/preprocess.m to crop them to 144 * 144. Then you could downsize the picture to the size you want (e.g. 36 * 36 by scale_factor = 4 ) and then enlarge them to 144 * 144 by bicubic method.
