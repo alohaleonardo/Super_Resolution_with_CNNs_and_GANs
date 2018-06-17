@@ -1,5 +1,3 @@
-## This readme is still in progress, but it already support section #Quickstart 
-
 # Super Resolution with CNNs and GANs
 
 This is the code for our cs231n project.
