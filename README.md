@@ -77,3 +77,24 @@ python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_
 
 2. __save feature maps__
 
+## Result List
+1. __SRCNN__
+
+2. __DRRN__
+
+3. __SRGAN__
+
+4. __CGAN__
+
+## Pre-trained Models
+The following Pytorch models were trained on CelebA dataset:
+1. SRCNN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
+2. DRRN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
+3. SRGAN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
+4. CGAN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
+
+## Reference
+[1] CS230 Stanford, https://github.com/cs230-stanford/, cs230-code-examples, 2018.
+[2] tyshiwo, Drrn CVPR17, https://github.com/tyshiwo/DRRN_CVPR17, 2017.
+[3] leftthomas, Srgan, https://github.com/leftthomas/SRGAN, 2017.
+[4] znxlwm, pytorch-generative-modelcollections, https://github.com/znxlwm/pytorch-generative-model-collections, 2017.
