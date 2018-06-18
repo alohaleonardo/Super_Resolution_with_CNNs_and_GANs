@@ -109,3 +109,7 @@
 2018-06-15 10:10:24,266:INFO: - Eval metrics : PSNR: 12.894 ; SSIM: 0.479 ; loss: 3978.366
 2018-06-15 10:10:24,269:INFO: - Found new best accuracy
 2018-06-15 10:10:24,270:INFO: Epoch 3/100
+2018-06-18 00:14:50,295:INFO: Loading the datasets...
+2018-06-18 00:14:50,352:INFO: - done.
+2018-06-18 00:15:07,479:INFO: Starting training for 100 epoch(s)
+2018-06-18 00:15:07,503:INFO: Epoch 1/100
