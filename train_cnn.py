@@ -231,7 +231,7 @@ if __name__ == '__main__':
     model = net.Net(params).cuda(cuda_id) if params.cuda else net.Net(params)
 
     if args.optim == 'adam':
-        optimizer = optim.Adam(model.parameters(), lr=params.learning_rate, weight_decay = 1e-5)
+        optimizer = optim.Adam(model.parameters(), lr=params.learning_rate)
     elif args.optim == 'sgd':
         optimizer = optim.SGD(model.parameters(), lr=params.learning_rate, momentum=0.9)
 
