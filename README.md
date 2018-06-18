@@ -30,7 +30,7 @@ This project was implemented in [PyTorch 0.4](https://pytorch.org/#pip-install-p
 
 ## Quickstart
 1. __Build datasets__: First, you need to download the dataset. We use [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) as our dataset.
-e.g for cnn_based model, we set input size 144*144 and output size 144*144; For gan model, we set input size 36* and output size 144*144
+e.g for cnn_based model, we set input size 144×144 and output size 144×144; For gan model, we set input size 36×36 and output size 144×144
 ```
 python build_dataset.py --data_dir ../img_align_celeba_test --output_dir ../data/cnn_faces --input_size 144 --output_size 144
 ```
