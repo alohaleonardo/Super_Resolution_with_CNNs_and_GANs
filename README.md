@@ -94,7 +94,8 @@ The following Pytorch models were trained on CelebA dataset:
 4. CGAN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
 
 ## Reference
-[1] CS230 Stanford, https://github.com/cs230-stanford/, cs230-code-examples, 2018.
-[2] tyshiwo, Drrn CVPR17, https://github.com/tyshiwo/DRRN_CVPR17, 2017.
-[3] leftthomas, Srgan, https://github.com/leftthomas/SRGAN, 2017.
+[1] CS230 Stanford, https://github.com/cs230-stanford/, cs230-code-examples, 2018.__
+[2] tyshiwo, Drrn CVPR17, https://github.com/tyshiwo/DRRN_CVPR17, 2017.__
+[3] leftthomas, Srgan, https://github.com/leftthomas/SRGAN, 2017.__
 [4] znxlwm, pytorch-generative-modelcollections, https://github.com/znxlwm/pytorch-generative-model-collections, 2017.
+
