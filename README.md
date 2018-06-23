@@ -15,7 +15,7 @@ The results show that our methods and trails can achieve equivalent performance 
 
 <img src='imgs/resultsfig.png'>
 
-If you find this code useful in your research, please cite:
+If you find this code useful in your project, please star this repository and cite:
 
 ```
 @inproceedings{densecap,
