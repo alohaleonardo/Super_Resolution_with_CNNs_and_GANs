@@ -88,10 +88,10 @@ python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_
 
 ## Pre-trained Models
 The following Pytorch models were trained on CelebA dataset:
-1. SRCNN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
-2. DRRN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
-3. SRGAN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
-4. CGAN([best.pth.tar](https://github.com/yiyang7/cs231n_proj))
+1. SRCNN([best.pth.tar](https://www.dropbox.com/sh/n67zyn286lhi7jf/AABUi_X5ZIqiZ2cYMEnU2_iba?dl=0))
+2. DRRN([best.pth.tar](https://www.dropbox.com/sh/rcwwu5pjaqs8d5h/AADlhENVfVTaorRmJ5oE8PFna?dl=0))
+3. SRGAN([best.pth.tar](https://www.dropbox.com/sh/rt36dv65gkhu31z/AAAIR3M15km9VTF6vY9wIh8Ea?dl=0))
+4. CGAN([best.pth.tar](https://www.dropbox.com/sh/z2yjowd2mpg2ojc/AABINIMAfyM7rjvymookPI-ra?dl=0))
 
 ## Reference
 [1] CS230 Stanford, https://github.com/cs230-stanford/, cs230-code-examples, 2018.
