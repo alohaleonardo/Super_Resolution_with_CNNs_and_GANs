@@ -79,16 +79,16 @@ python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_
 
 ## Result List
 1. __SRCNN__
-<img src='imgs/srcnn_loss.png' width="200" height="400">
+<img src='imgs/srcnn_loss.png' width="300" height="300">
 
 2. __DRRN__
-<img src='imgs/B1U9_loss.png' width="200" height="400">
+<img src='imgs/B1U9_loss.png' width="300" height="300">
 
 3. __SRGAN__
-<img src='imgs/tv_loss.png' width="200" height="400">
+<img src='imgs/tv_loss.png' width="300" height="300">
 
 4. __CGAN__
-<img src='imgs/CGAN_loss.png' width="200" height="400">
+<img src='imgs/CGAN_loss.png' width="300" height="300">
 
 ## Pre-trained Models
 The following Pytorch models were trained on CelebA dataset:
