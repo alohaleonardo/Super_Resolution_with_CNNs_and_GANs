@@ -78,7 +78,7 @@ python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_
 
 ## Result List
 1. __SRCNN__
-<img src='imgs/srcnn_loss.png' width="300" height="200">
+<img src='imgs/srcnn.png' width="300" height="200">
 
 2. __DRRN__
 <img src='imgs/B1U9_loss.png' width="300" height="200">
