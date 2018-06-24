@@ -136,11 +136,11 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, optimizer, loss_
     # train add logger,epoch two parameters
     '''
     logger = Logger('./logs')
-    scheduler = lr_scheduler.StepLR(optimizer, step_size = 40, gamma=0.9)
+    scheduler = lr_scheduler.StepLR(optimizer, step_size = 10, gamma=1)
 
     for epoch in range(params.num_epochs):
         # Run one epoch
-        scheduler.step()
+#         scheduler.step()
         logging.info("Epoch {}/{}".format(epoch + 1, params.num_epochs))
 
         # compute number of batches in one epoch (one full pass over the training set)
