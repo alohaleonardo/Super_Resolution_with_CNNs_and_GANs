@@ -72,10 +72,9 @@ for gan models, e.g SRGAN:
 python evaluate_gan.py --data_dir ../data/gan_faces --model_dir experiments/gan_model --model gan --cuda cuda0
 ```
 
-## Guidelines for more advanced use
-1. __save output of test images__
-
-2. __save feature maps__
+<!--## Guidelines for more advanced use-->
+<!--1. __save output of test images__-->
+<!--2. __save feature maps__ -->
 
 ## Result List
 1. __SRCNN__
